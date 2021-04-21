@@ -16,3 +16,5 @@ fields:
     required: false
   label: the label
   description: my first field
+pages:
+- content/Products/mixes/tommarola.md
