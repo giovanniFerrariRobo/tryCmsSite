@@ -1,4 +1,14 @@
 ---
 label: A second template
 hide_body: true
-fields: []
+fields:
+- name: a_label_for_text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: A label for text area
+  description: " a simple label for text area to test"
