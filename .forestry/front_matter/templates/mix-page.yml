@@ -2,6 +2,12 @@
 label: mix page
 hide_body: true
 fields:
+- name: the_label
+  type: text
+  config:
+    required: false
+  label: the label
+  description: my first field
 - name: a_block
   type: blocks
   label: a block
@@ -10,11 +16,5 @@ fields:
     min: 
     max: 
   description: my first block
-- name: the_label
-  type: text
-  config:
-    required: false
-  label: the label
-  description: my first field
 pages:
 - content/Products/mixes/tommarola.md
