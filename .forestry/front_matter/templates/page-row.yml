@@ -27,3 +27,5 @@ fields:
     labelField: 
   label: Columns-row
   description: a template for columns describing products
+pages:
+- content/Products/mixes/tommarola.md

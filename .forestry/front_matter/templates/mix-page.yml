@@ -23,5 +23,3 @@ fields:
   label: This should be an image
   default: "/uploads/obama.jpg"
   description: An image of Obama
-pages:
-- content/Products/mixes/tommarola.md
