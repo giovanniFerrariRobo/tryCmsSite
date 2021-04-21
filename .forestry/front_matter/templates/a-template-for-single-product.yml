@@ -1,4 +1,19 @@
 ---
 label: a template for single product
 hide_body: false
-fields: []
+fields:
+- name: a_title_for_the_product
+  type: text
+  config:
+    required: false
+  label: A title for the product
+- name: a_description_of_the_product
+  type: text
+  config:
+    required: false
+  label: A description of the product
+- name: an_image_of_the_product
+  type: file
+  config:
+    maxSize: 64
+  label: An image of the product
