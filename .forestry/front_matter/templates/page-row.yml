@@ -4,19 +4,24 @@ hide_body: true
 fields:
 - name: columns-row
   type: field_group_list
+  fields:
+  - name: single_product_sintesis
+    type: blocks
+    label: single product sintesis
+    template_types: []
+    config:
+      min: 
+      max: 
+  - name: another_single_product
+    type: blocks
+    label: another single product
+    template_types: []
+    config:
+      min: 
+      max: 
   config:
     min: 
     max: 
     labelField: 
   label: Columns-row
   description: a template for columns describing products
-- name: single_product_info
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Single product info
-  description: a single product info in a list
