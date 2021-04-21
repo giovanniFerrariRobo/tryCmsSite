@@ -16,5 +16,12 @@ fields:
     min: 
     max: 
   description: my first block
+- name: this_should_be_an_image
+  type: file
+  config:
+    maxSize: 64
+  label: This should be an image
+  default: "/uploads/obama.jpg"
+  description: An image of Obama
 pages:
 - content/Products/mixes/tommarola.md
