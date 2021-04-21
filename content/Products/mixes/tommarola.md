@@ -1,6 +1,6 @@
 +++
 a_block = []
 draft = true
-the_label = ""
+the_label = "the label"
 
 +++
