@@ -28,4 +28,5 @@ fields:
   label: Columns-row
   description: a template for columns describing products
 pages:
+- content/Products/list of mixes.md
 - content/Products/mixes/tommarola.md
