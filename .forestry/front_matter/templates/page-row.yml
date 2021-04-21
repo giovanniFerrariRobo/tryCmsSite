@@ -8,14 +8,16 @@ fields:
   - name: single_product_sintesis
     type: blocks
     label: single product sintesis
-    template_types: []
+    template_types:
+    - a-template-for-single-product
     config:
       min: 
       max: 
   - name: another_single_product
     type: blocks
     label: another single product
-    template_types: []
+    template_types:
+    - a-template-for-single-product
     config:
       min: 
       max: 
